@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calculate_your_needs",
+  "info": {
+    "singularName": "calculate-your-need",
+    "pluralName": "calculate-your-needs",
+    "displayName": "Calculate-your-needs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "text"
+    },
+    "Plan": {
+      "type": "json"
+    },
+    "Points": {
+      "type": "json"
+    },
+    "Video": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

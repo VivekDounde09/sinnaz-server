@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "create_kai_zons",
+  "info": {
+    "singularName": "create-kai-zon",
+    "pluralName": "create-kai-zons",
+    "displayName": "Create-kai-zon",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "text"
+    },
+    "Plan": {
+      "type": "json"
+    },
+    "Points": {
+      "type": "json"
+    },
+    "Video": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
